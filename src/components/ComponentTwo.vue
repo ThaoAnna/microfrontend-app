@@ -1,7 +1,7 @@
 <template>
   <div class="component-card">
     <h2>Component 2 </h2>
-    <p>{{ dynamicMessage }}</p>
+    <!-- <p>{{ dynamicMessage }}</p> -->
     <div class="counter-section">
       <button class="btn" @click="toggleTheme">Emit Button 2</button>
     </div>

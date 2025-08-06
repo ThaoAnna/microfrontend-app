@@ -2,7 +2,7 @@
   <div class="component-card">
     <h2>Component 1 </h2>
     <div class="counter-section">
-      <div class="counter-display">{{ count }}</div>
+      <!-- <div class="counter-display">{{ count }}</div> -->
       <button class="btn" @click="emmitButton">Emit Button 1</button>
       
     </div>
