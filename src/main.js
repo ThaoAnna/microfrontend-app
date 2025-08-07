@@ -7,8 +7,8 @@
 import { createApp, defineCustomElement, h, getCurrentInstance } from 'vue';
 // import { createPinia } from 'pinia';
 import App from "./App.vue";
-import s from "./assets/styles.css?inline";
-import a from "./style.css?inline";
+import a from "./assets/styles.css?inline";
+import b from "./style.css?inline";
 
 
 export const createElementInstance = ({ component = null } = {}) => {
@@ -21,7 +21,7 @@ export const createElementInstance = ({ component = null } = {}) => {
             Object.assign(inst.provides, app._context.provides);
         },
         render: () => h(component),
-        styles : [s, a],
+        styles : [a, b]
     });
 };
 
