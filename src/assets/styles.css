@@ -129,11 +129,12 @@ body {
 /* Main Content Styles */
 .main-content {
   flex: 1;
-  padding: 2rem;
+  /* padding: 2rem; */
   display: grid;
   /* grid-template-columns: 1fr 1fr; */
   gap: 2rem;
   /* align-items: flex-start; */
+  overflow: hidden;
 }
 
 .component-card {
@@ -172,7 +173,7 @@ body {
 }
 
 .component-card:hover {
-  transform: translateY(-10px) scale(1.02);
+  /* transform: translateY(-10px) scale(1.02); */
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
 }
 
