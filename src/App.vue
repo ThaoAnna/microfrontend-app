@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <header class="header">
+    <!-- <header class="header">
       <div class="header-content">
         <div class="logo">
           <div class="logo-icon">V</div>
@@ -11,14 +11,14 @@
           <button v-if="isLoggedIn" class="auth-btn logout" @click="isLoggedIn = false">Log Out</button>
         </div>
       </div>
-    </header>
+    </header> -->
 
     <main class="main-content">
-      <ComponentOne @emit-button="alertFunction"/>
+      <!-- <ComponentOne @emit-button="alertFunction"/> -->
       <ComponentTwo @toggle-theme="alertFunction"/>
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-content">
         <div class="footer-left">
           <h3>TechCorp Solutions</h3>
@@ -39,13 +39,13 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue';
-import ComponentOne from './components/ComponentOne.vue';
+// import ComponentOne from './components/ComponentOne.vue';
 import ComponentTwo from './components/ComponentTwo.vue';
 
 const appTitle = ref("VueApp");
