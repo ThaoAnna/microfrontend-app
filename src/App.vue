@@ -45,7 +45,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import ComponentOne from './components/ComponentOne.vue';
+import ComponentOne from './components/ComponentA.vue';
 import ComponentTwo from './components/ComponentTwo.vue';
 
 const appTitle = ref("VueApp");

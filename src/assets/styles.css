@@ -110,7 +110,7 @@ body {
 .auth-btn:hover {
   background: rgba(255, 255, 255, 0.3);
   border-color: rgba(255, 255, 255, 0.5);
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
 }
 
 .auth-btn.login {
@@ -172,7 +172,7 @@ body {
 }
 
 .component-card:hover {
-  transform: translateY(-10px) scale(1.02);
+  /* transform: translateY(-10px) scale(1.02); */
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
 }
 
